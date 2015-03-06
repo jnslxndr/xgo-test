@@ -10,6 +10,6 @@ filesets:
   - .*\.go
   depth: 3
 settings:
-  targetdir: "build"
+  targetdir: ""
   outfiles: []
   build: test -d Godeps && go(){ godep go "$@";} ; go install -v
